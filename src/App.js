@@ -8,7 +8,14 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <Card />
+      <Card
+        img={require("./images/katie-runner.png")}
+        title="Life lessons with Katie Zaferes"
+        country="USA"
+        rating={4.7}
+        reviewCount={8}
+        cost={136}
+      />
     </div>
   );
 }
