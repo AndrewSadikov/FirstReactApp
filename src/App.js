@@ -5,6 +5,8 @@ import Card from "./components/Card";
 import data from "./data";
 
 export default function App() {
+  //This function maps the information imported from the data.js file and
+  //returns one or multiple Card components to display on the page
   const cards = data.map((item) => {
     return (
       <Card
@@ -18,6 +20,7 @@ export default function App() {
     );
   });
 
+  //This returns the components including the Cards generated above
   return (
     <div>
       <Navbar />

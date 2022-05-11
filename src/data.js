@@ -1,3 +1,9 @@
+/*
+This is sample data that is used to dynamically populate the Card components
+In a more advanced project, this data would be generated from an api
+Changing this data or adding / removing objects is reflected by the main page
+*/
+
 export default [
   {
     id: 1,
