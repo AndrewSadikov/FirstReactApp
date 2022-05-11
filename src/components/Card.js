@@ -16,7 +16,7 @@ export default function Card(props) {
       <div className="card--title">
         <p>{props.title}</p>
         <p>
-          From<span className="bold"> ${props.cost}</span> / person
+          From<span className="bold"> ${props.cost}</span> / month
         </p>
       </div>
     </div>

@@ -45,7 +45,7 @@ section {
 }
 
 .hero--header {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 }
 
 .hero--text {
@@ -83,7 +83,7 @@ section {
 }
 
 .card--title {
-  padding: 4px;
+  padding: 0px 4px;
 }
 
 .card--star {
