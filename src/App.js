@@ -8,16 +8,7 @@ export default function App() {
   //This function maps the information imported from the data.js file and
   //returns one or multiple Card components to display on the page
   const cards = data.map((item) => {
-    return (
-      <Card
-        img={item.img}
-        title={item.title}
-        country={item.country}
-        rating={item.rating}
-        reviewCount={item.reviewCount}
-        cost={item.cost}
-      />
-    );
+    return <Card {...item} />;
   });
 
   //This returns the components including the Cards generated above
