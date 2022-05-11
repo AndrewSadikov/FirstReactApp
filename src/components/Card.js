@@ -13,10 +13,12 @@ export default function Card(props) {
           </span>
         </p>
       </div>
-      <p>{props.title}</p>
-      <p>
-        From<span className="bold"> ${props.cost}</span> / person
-      </p>
+      <div className="card--title">
+        <p>{props.title}</p>
+        <p>
+          From<span className="bold"> ${props.cost}</span> / person
+        </p>
+      </div>
     </div>
   );
 }

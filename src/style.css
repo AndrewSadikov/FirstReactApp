@@ -4,8 +4,9 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   font-family: sans-serif;
+  max-width: 500px;
 }
 
 nav,
@@ -35,6 +36,7 @@ section {
 .hero--photo {
   max-width: 400px;
   align-self: center;
+  padding-bottom: 20px;
 }
 
 .hero {
@@ -50,21 +52,41 @@ section {
   margin-top: 0;
 }
 
+.cards--list {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
 .card {
   max-width: 175px;
   font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .card--img {
-  width: 100%;
+  width: 173px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 9px;
+  padding-bottom: 5px;
 }
 
 .card--stats {
   display: flex;
   align-items: center;
+  padding: 4px;
+}
+
+.card--title {
+  padding: 4px;
 }
 
 .card--star {
-  height: 14px;
+  height: 12px;
+  padding-right: 4px;
 }
