@@ -6,7 +6,6 @@
 body {
   margin: auto;
   font-family: sans-serif;
-  max-width: 500px;
 }
 
 nav,
@@ -31,6 +30,11 @@ section {
 
 .nav--logo {
   max-width: 100px;
+}
+
+.middle {
+  max-width: 500px;
+  margin: auto;
 }
 
 .hero--photo {

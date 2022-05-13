@@ -15,8 +15,10 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <section className="cards--list">{cards}</section>
+      <div className="middle">
+        <Hero />
+        <section className="cards--list">{cards}</section>
+      </div>
     </div>
   );
 }
