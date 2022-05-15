@@ -1,1 +1,1 @@
-My first app built using react and following a tutorial. 
+My first webapp using react. Dynamically maps components and passes data.
