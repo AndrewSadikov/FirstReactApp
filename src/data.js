@@ -4,7 +4,7 @@ In a more advanced project, this data would be generated from an api
 Changing this data or adding / removing objects is reflected by the main page
 */
 
-export default [
+const data = [
   {
     id: 1,
     img: "https://images.pexels.com/photos/1795506/pexels-photo-1795506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -42,3 +42,5 @@ export default [
     cost: 1800,
   },
 ];
+
+export default data;
